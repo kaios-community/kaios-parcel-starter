@@ -6,7 +6,7 @@ const store = localforage.createInstance({
 });
 
 async function sayHelloAsync() {
-  await store.setItem('name', 'Garrett333');
+  await store.setItem('name', 'Garrett');
   const name = await store.getItem('name');
   console.log(formatHelloMessage(name));
 }
