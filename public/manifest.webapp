@@ -1,14 +1,13 @@
 {
-  "id": "com.garredow.parcel-starter",
+  "id": "kaios-parcel-starter",
   "name": "Parcel App",
-  "description": "A starter template using Parcel.",
-  "version": "0.1.0",
+  "description": "A starter template using Parcel",
+  "version": "1.0.0",
   "launch_path": "/index.html",
   "icons": {
-    "256": "/images/icon-256.png",
-    "128": "/images/icon-128.png",
-    "64": "/images/icon-64.png",
-    "48": "/images/icon-48.png"
+    "128": "/icons/icon_128.png",
+    "112": "/icons/icon_112.png",
+    "56": "/icons/icon_56.png"
   },
   "theme_color": "#FFFFFF",
   "developer": {

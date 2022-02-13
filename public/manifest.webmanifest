@@ -4,36 +4,31 @@
   "id": "kaios-parcel-starter",
   "short_name": "kaios-parcel-starter",
   "categories": ["entertainment", "games"],
-  "description": "KaiOS starter app using Parcel",
+  "description": "A starter template using Parcel",
   "theme_color": "#FFFFFF",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/assets/icons/icon_256.png",
-      "type": "image/png",
-      "sizes": "256x256"
-    },
-    {
-      "src": "/assets/icons/icon_128.png",
+      "src": "/icons/icon_128.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/assets/icons/icon_64.png",
+      "src": "/icons/icon_112.png",
       "type": "image/png",
-      "sizes": "64x64"
+      "sizes": "112x112"
     },
     {
-      "src": "/assets/icons/icon_48.png",
+      "src": "/icons/icon_56.png",
       "type": "image/png",
-      "sizes": "48x48"
+      "sizes": "56x56"
     }
   ],
   "start_url": "/index.html",
   "orientation": "portrait-primary",
   "b2g_features": {
     "version": "1.0.0",
-    "subtitle": "KaiOS starter app using Parcel",
+    "subtitle": "A starter template using Parcel",
     "permissions": {},
     "type": "privileged",
     "origin": "app://kaios-parcel-starter",
