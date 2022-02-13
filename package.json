@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel src/index.html",
-    "build:kaios2": "npm run clean && export BROWSERSLIST_ENV=kaios2 && parcel build --no-source-maps --target kaios2",
-    "build:kaios3": "npm run clean && export BROWSERSLIST_ENV=kaios3 && parcel build --no-source-maps --target kaios3",
+    "build:kaios2": "npm run clean && export BROWSERSLIST_ENV=kaios2 && parcel build --no-source-maps --no-cache --target kaios2",
+    "build:kaios3": "npm run clean && export BROWSERSLIST_ENV=kaios3 && parcel build --no-source-maps --no-cache --target kaios3",
     "clean": "rimraf ./dist"
   },
   "keywords": [],
@@ -27,13 +27,8 @@
     "staticPath": "public"
   },
   "browserslist": {
-    "kaios2": [
-      "Kaios 2.5",
-      "Firefox 48"
-    ],
-    "kaios3": [
-      "Firefox 84"
-    ]
+    "kaios2": "Firefox 48",
+    "kaios3": "Firefox 84"
   },
   "targets": {
     "kaios2": {
