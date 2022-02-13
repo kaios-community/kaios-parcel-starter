@@ -1,0 +1,45 @@
+{
+  "lang": "en-US",
+  "name": "kaios-parcel-starter",
+  "id": "kaios-parcel-starter",
+  "short_name": "kaios-parcel-starter",
+  "categories": ["entertainment", "games"],
+  "description": "KaiOS starter app using Parcel",
+  "theme_color": "#FFFFFF",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/icons/icon_256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/assets/icons/icon_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/assets/icons/icon_64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/assets/icons/icon_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    }
+  ],
+  "start_url": "/index.html",
+  "orientation": "portrait-primary",
+  "b2g_features": {
+    "version": "1.0.0",
+    "subtitle": "KaiOS starter app using Parcel",
+    "permissions": {},
+    "type": "privileged",
+    "origin": "app://kaios-parcel-starter",
+    "developer": {
+      "name": "Garrett Downs",
+      "url": "https://garrettdowns.com"
+    }
+  }
+}
